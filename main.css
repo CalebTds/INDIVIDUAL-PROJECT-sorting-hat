@@ -1,5 +1,68 @@
+#bd {
+  background-color: cadetblue;
+}
+.wel {
+  text-align: center;
+}
 .card {
-    box-shadow: 12px 12px 24px #ba70ff;
     text-align: center;
     margin: 10px;
 }
+#sort {
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+}
+.main-btn {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 12px;
+}
+button:focus {
+    filter: brightness(95%);
+}
+#app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#buttons {
+    float: center;
+    text-align: center;
+}
+
+/* Popup form - hidden by default */
+.form-popup {
+  display: none;
+  border: none;
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: rgb(153, 65, 14);
+  justify-content: center;
+  text-align: center;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+}
+/* Sort button */
+.form-container .btn {
+  padding: 16px 20px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  background-color: lightblue;
+}
+
+/* Add a red background color to the cancel button */
