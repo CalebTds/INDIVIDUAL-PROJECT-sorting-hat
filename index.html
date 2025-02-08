@@ -24,14 +24,13 @@
     <button id="sort" onclick="openForm()">Start the Sorting Process</button>
         <div class="form-popup" id="myForm">
             <form action="/action_page.php" class="form-container">
-                <h1>Enter First Year's Name</h1>
-
-                <label for="Student"><b>First Year</b></label>
-                <input type="text" placeholder="Enter First Year's Name" name="FY Name" required>
+                <h1>Hello! I am the Sorting Hat. Please type in your Student's name and click "Sort". We'll do the rest.</h1>
+                <input type="text" id="name" placeholder="Enter First Year's Name" name="FY Name" required>
                 <button type="submit" class="btn cancel" onclick="closeForm()">Sort</button>
             </form>
         </div>
     <div id="app"></div>
+    <div id="expelledApp"></div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

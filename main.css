@@ -3,10 +3,12 @@
 }
 .wel {
   text-align: center;
+  background-color:orange;
 }
 .card {
     text-align: center;
     margin: 10px;
+
 }
 #sort {
   display: block;
@@ -34,13 +36,11 @@ button:focus {
     text-align: center;
 }
 
-/* Popup form - hidden by default */
 .form-popup {
   display: none;
   border: none;
 }
 
-/* Add styles to the form container */
 .form-container {
   padding: 10px;
   background-color: rgb(153, 65, 14);
@@ -48,14 +48,13 @@ button:focus {
   text-align: center;
 }
 
-/* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
 }
-/* Sort button */
+
 .form-container .btn {
   padding: 16px 20px;
   border: none;
@@ -64,5 +63,3 @@ button:focus {
   opacity: 0.9;
   background-color: lightblue;
 }
-
-/* Add a red background color to the cancel button */
